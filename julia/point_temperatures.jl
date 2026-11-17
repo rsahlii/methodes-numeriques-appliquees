@@ -10,4 +10,5 @@ println("Moyenne = ", round(sum(temperatures) / length(temperatures), digits=2))
 # Nombre de jours > 15°C
 println(sum(temperatures .> 15.0))
 
-# Écart max
+# Écart entre le max et le min
+println(maximum(temperatures) - minimum(temperatures))
